@@ -2,8 +2,8 @@
 MIN_STUDENTS = 1
 MAX_STUDENTS = 100
 
-MIN_AGE = 1
-MAX_AGE = 120
+MIN_AGE = 18
+MAX_AGE = 40
 
 MIN_MARKS = 0
 MAX_MARKS = 100
@@ -46,7 +46,7 @@ def get_students(number_of_students):
                 age = int(age_text)
                 break
 
-            print("Age must be a whole number from 1 to 120.")
+            print("Age must be a whole number from 18 to 40.")
 
         student_class = input("Class: ").strip()
 
